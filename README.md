@@ -21,3 +21,9 @@ The following projects are available as separate branches in this repository:
   Description: This project simulates a customer-server system, tracking customers as they arrive, wait, get served, leave, or complete their interactions. The simulation handles dynamic service times and calculates statistics such as average waiting time, the number of customers served, and the number of customers who left.
   My Contribution: I implemented the core logic of the event-based simulation, designed the state-based system for event processing, and handled the computation of simulation statistics.
   Technologies: Java, functional programming constructs.
+
+4. Email Reminder Automation
+Branch: email-reminder-automation
+Description: This project automates the process of sending reminder emails related to quarterly data updates. It calculates important dates such as deadlines for updates, integrates with Outlook, and sends personalized emails with a link for data updates.
+My Contribution: I handled the integration with Outlook, developed the date calculations logic for determining deadlines, and created the email templates. The automation ensures that emails are only sent once per quarter.
+Technologies: Python, win32com.client, openpyxl
