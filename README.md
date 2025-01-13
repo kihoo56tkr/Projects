@@ -1,17 +1,22 @@
-# TKR's Portfolio
-Welcome to my GitHub repository! This repository contains a collection of my personal and academic projects, showcasing my work in areas such as machine learning and statistical computing. Each project is organized in a separate branch, making it easy to explore my different works.
+# Discrete Event Simulator
+This project demonstrates the implementation of a Discrete Event Simulator designed to model systems with multiple servers, queues, and customer events. The simulator tracks state transitions over time and collects performance statistics, making it a valuable tool for studying real-world scenarios such as queueing systems in restaurants, banks, or other service-based environments.
 
-Projects
-The following projects are available as separate branches in this repository:
+Key Characteristics of the Simulator:
+1. Event-Driven Simulation:
+- Models events such as ARRIVE, SERVE, WAIT, LEAVE, and DONE.
+- Events are processed sequentially using a priority queue.
+- Time formatting is precise to three decimal places using String.format.
 
-1. Brain Tumor Detection
-Branch: Artificial-Intelligence-Technology-and-Impact
-Description: This project focuses on detecting brain tumors in MRI scans using different deep learning methods. It includes data preprocessing, model training, and evaluation.
-My Contribution: I was responsible for the development and implementation of the CNN for image classification.
-Technologies: Python, TensorFlow, Keras, OpenCV, Matplotlib.
+2. Multi-Server, Multi-Queue System:
+- Each server has its own queue with a configurable maximum queue length.
+- Customers are served in a first-come, first-served manner.
+- Supports dynamic queuing or customer departure when queues are full.
 
-3. Bike Rental Prediction
-Branch: Statistics-and-Statistical-Computing
-Description: This individual project focuses on analyzing and building predictive models for bike rental data to forecast the daily count of rental bikes. The dataset contains features like temperature, humidity, season, weather conditions, and working day status, and the goal is to build a regression model to predict the number of bike rentals.
-My Contribution: I handled the data exploration, transformation of response variables, and built multiple regression models to predict the daily bike rental count. I also conducted outlier removal, feature selection, and model evaluation to improve the accuracy of the predictions.
-Technologies: R, lm (linear regression)
+3. On-Demand Service Time:
+- Service time is generated using the Supplier<Double> interface.
+- Only invoked when a customer is served, optimizing resource usage.
+
+4. Performance Statistics:
+- Calculates the average waiting time for served customers.
+- Tracks the number of customers served and those who leave unserved.
+
