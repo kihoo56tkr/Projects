@@ -7,7 +7,7 @@ This script automates the process of sending an email reminder about updating a 
 - It retrieves the most recent email from the Outlook inbox to check if the email reminder for the quarter has been sent already.
 
 3. Read Data from Excel:
-- It loads email addresses from a specific Excel file (Ref Database.xlsx) and prepares the recipients list.
+- It loads email addresses from a specific Excel file (.xlsx) and prepares the recipients list.
 
 4. Send Email:
 - If the reminder email has not been sent already, it composes a custom HTML email and sends it via Outlook.
