@@ -27,3 +27,8 @@ Branch: email-reminder-automation
 Description: This project automates the process of sending reminder emails related to quarterly data updates. It calculates important dates such as deadlines for updates, integrates with Outlook, and sends personalized emails with a link for data updates.
 My Contribution: I handled the integration with Outlook, developed the date calculations logic for determining deadlines, and created the email templates. The automation ensures that emails are only sent once per quarter.
 Technologies: Python, win32com.client, openpyxl
+
+5. Report Generation Automation Branch: report-generation-automation
+Description: This project automates the process of generating and updating reports based on quarterly data, integrating calculations such as application processing counts, service standards compliance, and time-based metrics. It tracks data entries and updates reports accordingly, ensuring accurate and timely reporting.
+My Contribution: I developed the logic for date handling, sheet duplication, count tracking, and service standard calculations. Additionally, I integrated Excel operations to process and update reports efficiently using the openpyxl library.
+Technologies: Python, openpyxl
