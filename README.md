@@ -1,23 +1,15 @@
-# TKR's Portfolio
-Welcome to my GitHub repository! This repository contains a collection of my personal and academic projects, showcasing my work in areas such as machine learning and statistical computing. Each project is organized in a separate branch, making it easy to explore my different works.
+# Python Email Automation Script
+This script automates the process of sending an email reminder about updating a link for data as of the previous quarter. It does this by performing the following actions:
+1. Determine Date Information:
+- The script calculates the first day of the current month, the last day of the previous month, and the deadline for data submission.
 
-Projects
-The following projects are available as separate branches in this repository:
+2. Interact with Outlook:
+- It retrieves the most recent email from the Outlook inbox to check if the email reminder for the quarter has been sent already.
 
-1. Brain Tumor Detection
-  Branch: Artificial-Intelligence-Technology-and-Impact
-  Description: This project focuses on detecting brain tumors in MRI scans using different deep learning methods. It includes data preprocessing, model training, and evaluation.
-  My Contribution: I was responsible for the development and implementation of the CNN for image classification.
-  Technologies: Python, TensorFlow, Keras, OpenCV, Matplotlib.
+3. Read Data from Excel:
+- It loads email addresses from a specific Excel file (Ref Database.xlsx) and prepares the recipients list.
 
-2. Bike Rental Prediction
-  Branch: Statistics-and-Statistical-Computing
-  Description: This individual project focuses on analyzing and building predictive models for bike rental data to forecast the daily count of rental bikes. The dataset contains features like temperature, humidity, season, weather conditions, and working day status, and the goal is to build a regression model to predict the number of bike rentals.
-  My Contribution: I handled the data exploration, transformation of response variables, and built multiple regression models to predict the daily bike rental count. I also conducted outlier removal, feature selection, and model evaluation to improve the accuracy of the predictions.
-  Technologies: R, lm (linear regression)
+4. Send Email:
+- If the reminder email has not been sent already, it composes a custom HTML email and sends it via Outlook.
 
-3. Customer-Server Simulation
-  Branch: Simulation-and-Modeling
-  Description: This project simulates a customer-server system, tracking customers as they arrive, wait, get served, leave, or complete their interactions. The simulation handles dynamic service times and calculates statistics such as average waiting time, the number of customers served, and the number of customers who left.
-  My Contribution: I implemented the core logic of the event-based simulation, designed the state-based system for event processing, and handled the computation of simulation statistics.
-  Technologies: Java, functional programming constructs.
+Note: Some of the details are intentionally omitted or generalized for privacy and security reasons.
