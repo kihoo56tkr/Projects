@@ -22,3 +22,5 @@ This Python script automates the process of generating and modifying reports bas
 
 6. Statistics Calculations:
 - Calculates the mean and median for time taken to process applications, with data aggregation based on monthly time frames.
+
+Note: Some of the details are intentionally omitted or generalized for privacy and security reasons.
