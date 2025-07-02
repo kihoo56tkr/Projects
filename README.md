@@ -4,6 +4,7 @@ Welcome to my GitHub repository! This repository contains a collection of my per
 ## Projects
 The following projects are available as separate branches in this repository:
 
+
 ### Brain Tumor Detection
 Branch: Artificial-Intelligence-Technology-and-Impact
 
@@ -12,6 +13,7 @@ Description: This project focuses on detecting brain tumors in MRI scans using d
 My Contribution: I was responsible for the development and implementation of the CNN for image classification.
 
 Technologies: Python, TensorFlow, Keras, OpenCV, Matplotlib.
+
 
 ### Bike Rental Prediction
 Branch: Statistics-and-Statistical-Computing
@@ -22,6 +24,7 @@ My Contribution: I handled data exploration, response variable transformation, m
 
 Technologies: R, linear regression.
 
+
 ### Customer-Server Simulation
 Branch: Simulation-and-Modeling
 
@@ -30,6 +33,7 @@ Description: Simulates a customer-server queuing system, including dynamic servi
 My Contribution: Implemented event-driven simulation logic, state-based transitions, and statistics computation.
 
 Technologies: Java, functional programming constructs.
+
 
 ### Email Reminder Automation
 Branch: email-reminder-automation
@@ -40,6 +44,7 @@ My Contribution: Developed email scheduling logic, Outlook integration, and dyna
 
 Technologies: Python, win32com.client, openpyxl.
 
+
 ### Report Generation Automation
 Branch: report-generation-automation
 
@@ -49,17 +54,18 @@ My Contribution: Designed logic for dynamic date handling, Excel sheet operation
 
 Technologies: Python, openpyxl.
 
-### Portfolio Optimization with Soybean and Wheat Futures
-Branch: portfolio-modeling-soy-wheat
 
+### Portfolio Optimization with Soybean and Wheat Futures
+Branch: portfolio-modeling-2-asset
 Description: Constructs an efficient frontier from soybean and wheat futures data using expected return and volatility. Identifies the minimum variance portfolio.
 
 My Contribution: Built expected return models, volatility bands, MVP weights, and visualized the efficient frontier.
 
 Technologies: Python, NumPy, Pandas, Matplotlib.
 
+
 ### Multi-Factor Regression Model on Stock Returns
-Branch: factor-regression-model
+Branch: multi-factor-regression-analysis-stock-returns
 
 Description: Performs multi-factor regression using OLS to analyze stock returns against common risk factors and visualize beta exposures.
 
@@ -67,8 +73,9 @@ My Contribution: Engineered regression framework and built comparative plots for
 
 Technologies: Python, Pandas, statsmodels, Matplotlib.
 
+
 ### 5-Asset Efficient Frontier and Minimum Variance Portfolio
-Branch: efficient-frontier-optimization
+Branch: portfolio-modeling-more-than-2-asset
 
 Description: Optimizes a five-asset portfolio using historical return data. Uses numerical optimization to minimize volatility and simulate the efficient frontier.
 
