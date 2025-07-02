@@ -3,9 +3,13 @@ This project performs linear regression using a multi-factor model (similar to t
 
 🔍 Objectives
 ✅ Estimate factor exposures (betas) of stocks using OLS regression
+
 ✅ Visualize factor sensitivities across all stocks
+
 ✅ Evaluate the fit quality for specific stocks
+
 ✅ Understand how market factors explain variations in stock returns
+
 
 ⚙️ Workflow
 1. Data Preprocessing
