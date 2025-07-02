@@ -1,7 +1,7 @@
-## TKR's Portfolio
+### TKR's Portfolio
 Welcome to my GitHub repository! This repository contains a collection of my personal and academic projects, showcasing my work in areas such as machine learning and statistical computing. Each project is organized in a separate branch, making it easy to explore my different works.
 
-# Projects
+## Projects
 The following projects are available as separate branches in this repository:
 
 # Brain Tumor Detection
@@ -10,7 +10,7 @@ Description: This project focuses on detecting brain tumors in MRI scans using d
 My Contribution: I was responsible for the development and implementation of the CNN for image classification.
 Technologies: Python, TensorFlow, Keras, OpenCV, Matplotlib.
 
-Bike Rental Prediction
+# Bike Rental Prediction
 Branch: Statistics-and-Statistical-Computing
 Description: This individual project focuses on analyzing and building predictive models for bike rental data to forecast the daily count of rental bikes.
 My Contribution: I handled data exploration, response variable transformation, model building, outlier removal, and performance evaluation.
