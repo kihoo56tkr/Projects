@@ -1,10 +1,9 @@
 # 📰 Apple Sentiment vs Stock Price Analysis
 This project explores the relationship between news sentiment and Apple Inc.'s (AAPL) stock price using Python. It collects news headlines via Google News RSS, performs sentiment analysis using VADER, and compares aggregated daily sentiment against AAPL's closing price.
 
-📈 Summary of Findings
-Data Collected: 104 headlines over ~30 days
-
-Average Sentiment Score: +0.074 (Positive)
+## 📈 Summary of Findings
+- Data Collected: 104 headlines over ~30 days
+- Average Sentiment Score: +0.074 (Positive)
 
 Sentiment Breakdown: 31 Positive, 55 Neutral, 18 Negative
 
