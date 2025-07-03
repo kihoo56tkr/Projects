@@ -1,84 +1,33 @@
-# TKR's Portfolio
-Welcome to my GitHub repository! This repository contains a collection of my personal and academic projects, showcasing my work in areas such as machine learning and statistical computing. Each project is organized in a separate branch, making it easy to explore my different works.
+# 📰 Apple Sentiment vs Stock Price Analysis
+This project explores the relationship between news sentiment and Apple Inc.'s (AAPL) stock price using Python. It collects news headlines via Google News RSS, performs sentiment analysis using VADER, and compares aggregated daily sentiment against AAPL's closing price.
 
-## Projects
-The following projects are available as separate branches in this repository:
+📈 Summary of Findings
+Data Collected: 104 headlines over ~30 days
 
+Average Sentiment Score: +0.074 (Positive)
 
-### Brain Tumor Detection
-Branch: Artificial-Intelligence-Technology-and-Impact
+Sentiment Breakdown: 31 Positive, 55 Neutral, 18 Negative
 
-Description: This project focuses on detecting brain tumors in MRI scans using different deep learning methods. It includes data preprocessing, model training, and evaluation.
+Top Headlines:
 
-My Contribution: I was responsible for the development and implementation of the CNN for image classification.
+"Apple introduces a delightful and elegant new software design" (+0.78)
 
-Technologies: Python, TensorFlow, Keras, OpenCV, Matplotlib.
+"Apple's AI research has failed..." (−0.51)
 
+Correlation with Stock Price:
 
-### Bike Rental Prediction
-Branch: Statistics-and-Statistical-Computing
+Pearson correlation: −0.05 → No significant short-term predictive power
 
-Description: This individual project focuses on analyzing and building predictive models for bike rental data to forecast the daily count of rental bikes.
+🔧 Tools & Technologies
+Python, feedparser, nltk (VADER), yfinance, pandas, matplotlib
 
-My Contribution: I handled data exploration, response variable transformation, model building, outlier removal, and performance evaluation.
+Data Cleaning: Removed duplicates, normalized headlines, preserved timestamps
 
-Technologies: R, linear regression.
+Sentiment Aggregation: Daily resampling of compound scores
 
+📊 Visualizations
+Daily Average Sentiment Time Series
 
-### Customer-Server Simulation
-Branch: Simulation-and-Modeling
+Overlay plot of Apple stock price vs sentiment trends
 
-Description: Simulates a customer-server queuing system, including dynamic service times and key metrics like average wait time and dropouts.
-
-My Contribution: Implemented event-driven simulation logic, state-based transitions, and statistics computation.
-
-Technologies: Java, functional programming constructs.
-
-
-### Email Reminder Automation
-Branch: email-reminder-automation
-
-Description: Automates quarterly email alerts for data updates, integrating with Outlook to send deadline-based reminders.
-
-My Contribution: Developed email scheduling logic, Outlook integration, and dynamic email templating.
-
-Technologies: Python, win32com.client, openpyxl.
-
-
-### Report Generation Automation
-Branch: report-generation-automation
-
-Description: Automates the creation and updating of performance reports from Excel-based data, handling deadlines and metrics.
-
-My Contribution: Designed logic for dynamic date handling, Excel sheet operations, and formula calculations.
-
-Technologies: Python, openpyxl.
-
-
-### Portfolio Optimization with Soybean and Wheat Futures
-Branch: portfolio-modeling-2-asset
-Description: Constructs an efficient frontier from soybean and wheat futures data using expected return and volatility. Identifies the minimum variance portfolio.
-
-My Contribution: Built expected return models, volatility bands, MVP weights, and visualized the efficient frontier.
-
-Technologies: Python, NumPy, Pandas, Matplotlib.
-
-
-### Multi-Factor Regression Model on Stock Returns
-Branch: multi-factor-regression-analysis-stock-returns
-
-Description: Performs multi-factor regression using OLS to analyze stock returns against common risk factors and visualize beta exposures.
-
-My Contribution: Engineered regression framework and built comparative plots for factor sensitivity across stocks.
-
-Technologies: Python, Pandas, statsmodels, Matplotlib.
-
-
-### 5-Asset Efficient Frontier and Minimum Variance Portfolio
-Branch: portfolio-modeling-more-than-2-asset
-
-Description: Optimizes a five-asset portfolio using historical return data. Uses numerical optimization to minimize volatility and simulate the efficient frontier.
-
-My Contribution: Cleaned data, implemented optimization using scipy.optimize, simulated portfolios, and visualized the MVP.
-
-Technologies: Python, NumPy, Pandas, Matplotlib, SciPy.
+Correlation matrix
